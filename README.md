@@ -1,6 +1,6 @@
 
 # BluetoothRSASample
-iPhoneのBluetooth機能を使ってRSA暗号化を実感してみるサンプルです。2機の実機が必要です。
+iPhoneのBluetooth機能を使ってRSA暗号化を実感してみるサンプルです。2機の実機が必要です。Bluetooth機能の実装部分は、Appleのサンプルプロジェクト'BTLE Transfer'の実装を利用しています。
 
 鍵の生成の為の実装は含まれていませんので、あらかじめ計算して求めたものを使ってください。
 
