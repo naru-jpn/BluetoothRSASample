@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43C276191BE0549A0071DB81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C276181BE0549A0071DB81 /* main.m */; };
+		43C2761C1BE0549A0071DB81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C2761B1BE0549A0071DB81 /* AppDelegate.m */; };
+		43C276241BE0549A0071DB81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C276231BE0549A0071DB81 /* Assets.xcassets */; };
+		43C276271BE0549A0071DB81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C276251BE0549A0071DB81 /* LaunchScreen.storyboard */; };
+		43C276301BE0552E0071DB81 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C2762F1BE0552E0071DB81 /* MenuViewController.m */; };
+		43C276351BE055350071DB81 /* ReceiveMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C276321BE055350071DB81 /* ReceiveMessageViewController.m */; };
+		43C276361BE055350071DB81 /* ReceivePublicKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C276341BE055350071DB81 /* ReceivePublicKeyViewController.m */; };
+		43C2763B1BE055440071DB81 /* SendMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C276381BE055440071DB81 /* SendMessageViewController.m */; };
+		43C2763C1BE055440071DB81 /* SendPublicKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C2763A1BE055440071DB81 /* SendPublicKeyViewController.m */; };
+		43C276401BE0554F0071DB81 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C2763E1BE0554F0071DB81 /* SettingsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43C276141BE054990071DB81 /* BluetoothRSASample.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothRSASample.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C276181BE0549A0071DB81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43C2761A1BE0549A0071DB81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43C2761B1BE0549A0071DB81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43C276231BE0549A0071DB81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43C276261BE0549A0071DB81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43C276281BE0549A0071DB81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C2762E1BE0552E0071DB81 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		43C2762F1BE0552E0071DB81 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		43C276311BE055350071DB81 /* ReceiveMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveMessageViewController.h; sourceTree = "<group>"; };
+		43C276321BE055350071DB81 /* ReceiveMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveMessageViewController.m; sourceTree = "<group>"; };
+		43C276331BE055350071DB81 /* ReceivePublicKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceivePublicKeyViewController.h; sourceTree = "<group>"; };
+		43C276341BE055350071DB81 /* ReceivePublicKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceivePublicKeyViewController.m; sourceTree = "<group>"; };
+		43C276371BE055440071DB81 /* SendMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMessageViewController.h; sourceTree = "<group>"; };
+		43C276381BE055440071DB81 /* SendMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMessageViewController.m; sourceTree = "<group>"; };
+		43C276391BE055440071DB81 /* SendPublicKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendPublicKeyViewController.h; sourceTree = "<group>"; };
+		43C2763A1BE055440071DB81 /* SendPublicKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendPublicKeyViewController.m; sourceTree = "<group>"; };
+		43C2763D1BE0554F0071DB81 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		43C2763E1BE0554F0071DB81 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		43C2763F1BE0554F0071DB81 /* TransferService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferService.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43C276111BE054990071DB81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43C2760B1BE054990071DB81 = {
+			isa = PBXGroup;
+			children = (
+				43C276161BE054990071DB81 /* BluetoothRSASample */,
+				43C276151BE054990071DB81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43C276151BE054990071DB81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43C276141BE054990071DB81 /* BluetoothRSASample.temp_caseinsensitive_rename.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43C276161BE054990071DB81 /* BluetoothRSASample */ = {
+			isa = PBXGroup;
+			children = (
+				43C2761A1BE0549A0071DB81 /* AppDelegate.h */,
+				43C2761B1BE0549A0071DB81 /* AppDelegate.m */,
+				43C2762E1BE0552E0071DB81 /* MenuViewController.h */,
+				43C2762F1BE0552E0071DB81 /* MenuViewController.m */,
+				43C276311BE055350071DB81 /* ReceiveMessageViewController.h */,
+				43C276321BE055350071DB81 /* ReceiveMessageViewController.m */,
+				43C276371BE055440071DB81 /* SendMessageViewController.h */,
+				43C276381BE055440071DB81 /* SendMessageViewController.m */,
+				43C276331BE055350071DB81 /* ReceivePublicKeyViewController.h */,
+				43C276341BE055350071DB81 /* ReceivePublicKeyViewController.m */,
+				43C276391BE055440071DB81 /* SendPublicKeyViewController.h */,
+				43C2763A1BE055440071DB81 /* SendPublicKeyViewController.m */,
+				43C2763D1BE0554F0071DB81 /* SettingsViewController.h */,
+				43C2763E1BE0554F0071DB81 /* SettingsViewController.m */,
+				43C2763F1BE0554F0071DB81 /* TransferService.h */,
+				43C276231BE0549A0071DB81 /* Assets.xcassets */,
+				43C276251BE0549A0071DB81 /* LaunchScreen.storyboard */,
+				43C276281BE0549A0071DB81 /* Info.plist */,
+				43C276171BE0549A0071DB81 /* Supporting Files */,
+			);
+			path = BluetoothRSASample;
+			sourceTree = "<group>";
+		};
+		43C276171BE0549A0071DB81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43C276181BE0549A0071DB81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43C276131BE054990071DB81 /* BlueToothRSASample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C2762B1BE0549A0071DB81 /* Build configuration list for PBXNativeTarget "BlueToothRSASample" */;
+			buildPhases = (
+				43C276101BE054990071DB81 /* Sources */,
+				43C276111BE054990071DB81 /* Frameworks */,
+				43C276121BE054990071DB81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueToothRSASample;
+			productName = BlueToothRSASample;
+			productReference = 43C276141BE054990071DB81 /* BluetoothRSASample.temp_caseinsensitive_rename.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43C2760C1BE054990071DB81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = naru;
+				TargetAttributes = {
+					43C276131BE054990071DB81 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 43C2760F1BE054990071DB81 /* Build configuration list for PBXProject "BluetoothRSASample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43C2760B1BE054990071DB81;
+			productRefGroup = 43C276151BE054990071DB81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43C276131BE054990071DB81 /* BlueToothRSASample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43C276121BE054990071DB81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C276271BE0549A0071DB81 /* LaunchScreen.storyboard in Resources */,
+				43C276241BE0549A0071DB81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43C276101BE054990071DB81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C2763B1BE055440071DB81 /* SendMessageViewController.m in Sources */,
+				43C276361BE055350071DB81 /* ReceivePublicKeyViewController.m in Sources */,
+				43C2763C1BE055440071DB81 /* SendPublicKeyViewController.m in Sources */,
+				43C276401BE0554F0071DB81 /* SettingsViewController.m in Sources */,
+				43C276351BE055350071DB81 /* ReceiveMessageViewController.m in Sources */,
+				43C2761C1BE0549A0071DB81 /* AppDelegate.m in Sources */,
+				43C276301BE0552E0071DB81 /* MenuViewController.m in Sources */,
+				43C276191BE0549A0071DB81 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43C276251BE0549A0071DB81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C276261BE0549A0071DB81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43C276291BE0549A0071DB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43C2762A1BE0549A0071DB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43C2762C1BE0549A0071DB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueToothRSASample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naru-jpn.BluetoothRSASample";
+				PRODUCT_NAME = BluetoothRSASample.temp_caseinsensitive_rename;
+			};
+			name = Debug;
+		};
+		43C2762D1BE0549A0071DB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueToothRSASample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naru-jpn.BluetoothRSASample";
+				PRODUCT_NAME = BluetoothRSASample.temp_caseinsensitive_rename;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43C2760F1BE054990071DB81 /* Build configuration list for PBXProject "BluetoothRSASample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C276291BE0549A0071DB81 /* Debug */,
+				43C2762A1BE0549A0071DB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C2762B1BE0549A0071DB81 /* Build configuration list for PBXNativeTarget "BlueToothRSASample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C2762C1BE0549A0071DB81 /* Debug */,
+				43C2762D1BE0549A0071DB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43C2760C1BE054990071DB81 /* Project object */;
+}
